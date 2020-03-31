@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Automation" duration-ms="20533" started-at="2020-03-30T18:13:06 CDT" finished-at="2020-03-30T18:13:27 CDT">
+    <groups>
+    </groups>
+    <test name="CHROME on WINDOWS LOCAL" duration-ms="16985" started-at="2020-03-30T18:13:06 CDT" finished-at="2020-03-30T18:13:23 CDT">
+      <class name="com.automation.scripts.Login">
+        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.automation.scripts.Login@40005471]" name="beforeTest" is-config="true" duration-ms="5721" started-at="2020-03-30T18:13:06 CDT" finished-at="2020-03-30T18:13:12 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Selenium]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[80]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[local]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.automation.scripts.Login@40005471]" name="beforeMethod" is-config="true" duration-ms="24" started-at="2020-03-30T18:13:12 CDT" finished-at="2020-03-30T18:13:12 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.automation.scripts.Login.login() throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.automation.scripts.Login@40005471]" name="login" duration-ms="10112" started-at="2020-03-30T18:13:12 CDT" finished-at="2020-03-30T18:13:22 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.automation.scripts.Login@40005471]" name="afterMethod" is-config="true" duration-ms="2" started-at="2020-03-30T18:13:22 CDT" finished-at="2020-03-30T18:13:22 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest(java.lang.String)[pri:0, instance:com.automation.scripts.Login@40005471]" name="afterTest" is-config="true" duration-ms="1070" started-at="2020-03-30T18:13:22 CDT" finished-at="2020-03-30T18:13:23 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.automation.scripts.Login -->
+    </test> <!-- CHROME on WINDOWS LOCAL -->
+    <test name="CHROME on WINDOWS SAUCELABS" duration-ms="20533" started-at="2020-03-30T18:13:06 CDT" finished-at="2020-03-30T18:13:27 CDT">
+      <class name="com.automation.scripts.Login">
+        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext, java.lang.String, java.lang.String)[pri:0, instance:com.automation.scripts.Login@23348b5d]" name="beforeSuite" is-config="true" duration-ms="47" started-at="2020-03-30T18:13:06 CDT" finished-at="2020-03-30T18:13:06 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@68e965f5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sequential]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Regression]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.automation.scripts.Login@23348b5d]" name="beforeTest" is-config="true" duration-ms="8068" started-at="2020-03-30T18:13:06 CDT" finished-at="2020-03-30T18:13:14 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Selenium]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[80]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[cloudSauceLabs]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Windows 7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.automation.scripts.Login@23348b5d]" name="beforeMethod" is-config="true" duration-ms="9" started-at="2020-03-30T18:13:14 CDT" finished-at="2020-03-30T18:13:14 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.automation.scripts.Login.login() throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.automation.scripts.Login@23348b5d]" name="login" duration-ms="12149" started-at="2020-03-30T18:13:14 CDT" finished-at="2020-03-30T18:13:27 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.automation.scripts.Login@23348b5d]" name="afterMethod" is-config="true" duration-ms="4" started-at="2020-03-30T18:13:27 CDT" finished-at="2020-03-30T18:13:27 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest(java.lang.String)[pri:0, instance:com.automation.scripts.Login@23348b5d]" name="afterTest" is-config="true" duration-ms="269" started-at="2020-03-30T18:13:27 CDT" finished-at="2020-03-30T18:13:27 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.automation.scripts.Login -->
+    </test> <!-- CHROME on WINDOWS SAUCELABS -->
+  </suite> <!-- Automation -->
+</testng-results>
